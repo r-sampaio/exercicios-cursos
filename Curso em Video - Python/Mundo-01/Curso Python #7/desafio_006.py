@@ -1,3 +1,6 @@
+'''
+Crie um algoritmo que leia um número e mostre o seu dobro, triplo e a raiz quadrada.
+'''
 from funcoes import limpa, title, result
 
 limpa()

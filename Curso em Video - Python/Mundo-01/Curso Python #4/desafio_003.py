@@ -1,3 +1,6 @@
+'''
+Crie um script Python que leia dois número e tente mostrar a soma entre eles.
+'''
 from funcoes import limpa, title, result
 
 limpa()
