@@ -6,7 +6,6 @@ from funcoes import limpa, title, result
 limpa()
 title()
 nota1 = float(input('Digite a primeira nota: '))
-limpa()
 nota2 = float(input('Digite a segunda nota: '))
 limpa()
 result()
