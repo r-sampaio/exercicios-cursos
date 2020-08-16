@@ -9,4 +9,6 @@ from math import hypot
 os.system('cls')
 catetoOposto = float(input('Digite o comprimeito do cateto oposto: '))
 catetoAdjacente = float(input('Digite o comprimento do cateto adjacente: '))
+# hipotenusa = (catetoOposto ** 2 + catetoAdjacente ** 2) ** (1/2)
+# print(f'{hipotenusa}')
 print(f'{hypot(catetoOposto, catetoAdjacente)}')
