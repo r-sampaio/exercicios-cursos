@@ -1,6 +1,5 @@
-'''
-Faça um algoritmo que leia o valor de um produto e mostra o preço dele parcelado e a vista.
-'''
+# Faça um algoritmo que leia o valor de um produto e mostra o preço dele parcelado e a vista.
+
 from funcoes import limpa, title, result
 
 limpa()

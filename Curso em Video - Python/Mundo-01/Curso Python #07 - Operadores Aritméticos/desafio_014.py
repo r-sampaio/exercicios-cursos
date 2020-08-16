@@ -1,6 +1,5 @@
-'''
-Escreva um programa que converta uma temperatura digitada em ºC e converta para ºF.
-'''
+# Escreva um programa que converta uma temperatura digitada em ºC e converta para ºF.
+
 from funcoes import limpa, title, result
 
 limpa()

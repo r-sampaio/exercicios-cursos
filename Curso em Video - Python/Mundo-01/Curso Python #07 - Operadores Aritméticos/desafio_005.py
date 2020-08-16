@@ -1,6 +1,5 @@
-'''
-Faça um programa que leia im número inteiro e mostre na tela o seu sucessor e seu antecessor.
-'''
+# Faça um programa que leia im número inteiro e mostre na tela o seu sucessor e seu antecessor.
+
 from funcoes import limpa, title, result
 
 limpa()

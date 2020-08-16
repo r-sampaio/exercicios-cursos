@@ -1,7 +1,7 @@
-'''
-Escreva um programa que pergute a quantidade de Km percorrido por um carro alugado e a quantidade de dias pelos
-quais ele foi alugado, calcule o preço a pagar, sabendo que o carro custa R$60 pro dia e R$0,15 por Km rodado.
-'''
+# Escreva um programa que pergute a quantidade de Km percorrido por um carro alugado
+    # e a quantidade de dias pelos quais ele foi alugado, calcule o preço a pagar,
+    # sabendo que o carro custa R$60 pro dia e R$0,15 por Km rodado.
+
 from funcoes import limpa, title, result
 
 limpa()
