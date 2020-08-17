@@ -4,3 +4,7 @@
         # primreiro : Ana
         # ultimo: Souza
 
+nome = str(input('Qual seu nome completo? '))
+dividido = nome.split()
+print(dividido[0])
+print(dividido[len(dividido)-1])
