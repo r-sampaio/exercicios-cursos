@@ -99,7 +99,7 @@ Possuí 21 caracteres começando a contagem do 0
 
 ``` python
 >> print (frase.uper().count('O'))
->> 
+>> 3
 ```
 * Pega a frase joga para minúscula e conta quanto “O” maiúsculo tem.
 
