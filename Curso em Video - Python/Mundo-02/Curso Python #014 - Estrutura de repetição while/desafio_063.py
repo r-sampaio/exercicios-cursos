@@ -2,3 +2,8 @@
     # de uma Sequência de Fibonacci.
     # Ex: 0 -> 1 -> 1 -> 2 -> 3 -> 5 -> 8
 
+
+n = 0
+termos = int(input('Digite quantos termos exibir: '))
+while n < termos:
+    print(f'{n}', end='')
