@@ -5,18 +5,13 @@
 n = 0
 termo = int(input('Digite o termo: '))
 razao = int(input('Digite a razao: '))
-while n < 10:
-    n += 1
-    print(f'{termo}', end='')
-    print(', ' if n < 10 else '. ', end='')
-    termo += razao
-m = int(input('Deseja mostra mais quantos números? ')
-        if m != 0:
-            n = 0
-            while n <= m:
-                n += 1
-                print(f'{termo}', end='')
-                print(', ' if n < m else '. ', end='')
-                termo += razao
-        else:
-            print('Programa finalizado.')
+total = 0
+m = 10
+while m != 0:
+    total += m
+    while n <= total:
+        n += 1
+        print(f'{termo}', end='')
+        print(', ' if n < m else '. ', end='')
+        termo += razao
+m = int(input('Deseja mostra mais quantos numeros? '))
