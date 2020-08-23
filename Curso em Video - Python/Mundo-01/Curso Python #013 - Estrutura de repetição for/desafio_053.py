@@ -6,3 +6,15 @@
     # O LOBO AMA O BOLO             OLOBOAMAOBOLO
     # ANOTARAM A DATA DA MARATONA   ANOTARAMADATADAMARATONA
 
+nome = str(input('Digite uma frase: ')).upper().strip()
+palavra = nome.split()
+junto = ''.join(palavra)
+inverso = junto[::-1]
+# inverso = ''
+# for i in range(len(junto) - 1, -1, -1):
+#     inverso += junto[i]
+print(junto, inverso)
+if junto == inverso:
+    print('É palindromo')
+else:
+    print('Não é palindromo')

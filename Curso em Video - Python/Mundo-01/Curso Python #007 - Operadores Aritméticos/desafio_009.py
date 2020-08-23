@@ -13,11 +13,14 @@ limpa()
 title()
 num = int(input('Digite um numero: '))
 limpa()
-r = 0
+r = 1
 traco()
 print('')
 while r <= 10:
-    print(f'| {r:<2} + {num:<2} = {(r+num):<3} |  | {r:<2} - {num:<2} = {(r-num):<3} |  | {r:<2} x {num:<2} = {(r*num):<3} |  | {r:<2} / {num:<2} = {(r/num):<3.0f} |')
+    print(f'| {r:<2} + {num:<2} = {(r+num):<3} |  ', end='')
+    print(f'| {r:<2} - {num:<2} = {(r-num):<3} |  ', end='')
+    print(f'| {r:<2} x {num:<2} = {(r*num):<3} |  ', end='')
+    print(f'| {r:<2} / {num:<2} = {(r/num):<3.0f} |')
     r = r+1
 traco()
 print('\n')
