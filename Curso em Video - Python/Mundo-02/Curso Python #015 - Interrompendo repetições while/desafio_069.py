@@ -10,9 +10,10 @@ while True:
     sexo = str(input('Digite o sexo [M/F]: ')).upper().strip()[0]
     if idade > 18:
         i += 1
-    elif sexo == 'M':
+    if sexo == 'M':
         h += 1
-    elif sexo == 'F' and idade < 20:
+        print(f'{h}')
+    if sexo == 'F' and idade < 20:
         m +=1
     stop = str(input('Quer continuar? [S/N] ')).upper().strip()[0]
     if stop == 'N':
