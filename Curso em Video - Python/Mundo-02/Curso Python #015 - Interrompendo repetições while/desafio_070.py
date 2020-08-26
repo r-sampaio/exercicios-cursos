@@ -1,6 +1,6 @@
 # Crie um programa que leia o nome e o preço de vários produtos. O programa deverá perguntar
     # se o usuário vai continuar ou não. No final, mostre:
-'''
+
 maisC = maisB = soma = q = 0
 pbarato = continuar = ' '
 while True:
@@ -14,6 +14,7 @@ while True:
     if q == 1 or preco < maisB:
         maisB == preco
         pbarato == produto
+        print(maisB, pbarato)
     if continuar == 'N':
         break
 print(f'Total: {soma}.')
@@ -42,3 +43,4 @@ print('{:-^40}'.format(' FIM DO PROGRAMA '))
 print(f'O toral da compra foi R${total:.2f}')
 print(f'Temos {totmil} produtos custando mais de R$1000.00')
 print(f'O produto mais barato foi {barato} que custa R${menor:.2f}')
+'''
