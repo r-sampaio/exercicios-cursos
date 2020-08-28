@@ -5,6 +5,12 @@ numero = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oit
            'dez', 'onze', 'doze', 'treze', 'quatorze', 'quinze', 'dezesseis', 'dezessete',
             'dezoito', 'dezenove', 'vinte')
 
-num = int(input('Digite um numero: '))
+#num = int(input('Digite um numero: '))
 
+#print(numero[num])
+
+while True:
+    num = int(input('Digite um numero: '))
+    if num >= 0 and num <= 20:
+        break
 print(numero[num])
