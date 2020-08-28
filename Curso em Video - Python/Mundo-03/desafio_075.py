@@ -3,7 +3,8 @@
     # B) Em que posição foi digitado o primeiro valor 3.
     # C) Quais foram os números pares. 
 
-num = int(input('Digite um numero: ')), int(input('Digite um numero: ')), int(input('Digite um numero: ')), int(input('Digite um numero: '))
+num = (int(input('Digite um numero: ')), int(input('Digite um numero: ')),
+      int(input('Digite um numero: ')), int(input('Digite um numero: ')))
 
 print(f'Os numeros digitados foram,', end=' ')
 for r in num:
