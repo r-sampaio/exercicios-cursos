@@ -15,6 +15,6 @@ print(f'Foram digitados {len(lista)} valores.')
 print(f'Na ordem decrescente fica dessa forma {lista}')
 for pos, i in enumerate(lista):
     if 5 == i:
-        print(f'O número 5 foi digitado e esta na posição {pos}')
+        print(f'O número 5 foi digitado e esta na posição {pos+1} da lista e {pos} da memoria.')
     elif 5 not in lista:
         print(f'O número 5 não foi digitado')
