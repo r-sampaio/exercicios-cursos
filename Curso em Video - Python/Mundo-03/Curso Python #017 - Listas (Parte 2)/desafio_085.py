@@ -2,14 +2,13 @@
     # lista única que mantenha separados os valores pares e ímpares. No final, mostre os valores 
     # pares e ímpares em ordem crescente.
 
-lista = []
-temp = []
+lista = [[], []]
+valor = 0
 for i in range(1, 8):
-    temp.append(int(input('Digite um numero: ')))
-    if temp[0] % 2 == 0:
-        lista.insert(0, temp)
+    valor = (int(input('Digite um numero: ')))
+    if valor % 2 == 0:
+        lista[0].append(valor)
     else:
-        lista.insert(1, temp)
-    temp.clear()
+        lista[1].append(valor)
 print(lista[0])
 print(lista[1])
