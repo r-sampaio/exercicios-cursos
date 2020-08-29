@@ -4,6 +4,19 @@
 
 p = 0
 lista = []
+expr = (str(input('Digite a expressão: ')))
+for i in expr:
+    if i == '(' or i == ')':
+        p += 1
+if p % 2 == 0:
+    print('A expressão esta correta.')
+else:
+    print('A expressão não esta correta.')
+
+
+'''
+p = 0
+lista = []
 r = []
 expr = (str(input('Digite a expressão: ')))
 for i in expr:
@@ -19,3 +32,4 @@ if len(r) == 0:
     print('A expressão esta correta.')
 else:
     print('A expressão não esta correta.')
+'''
