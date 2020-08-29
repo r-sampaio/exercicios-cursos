@@ -11,7 +11,7 @@ while True:
     elif valor in lista:
         print('Valor duplicado.')
     c = str(input('Deseja continuar? [S/N]: ')).strip().upper()[0]
-    if c == 'N':
+    if c in 'Nn':
         break
 lista.sort()
 print(lista)
