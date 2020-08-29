@@ -3,8 +3,6 @@
 
 cont = menor = maior = posicao = 0
 lista = []
-ma = []
-me = []
 for p in range(0, 5):
     valor = int(input(f'Digite um valor da posição {p}: '))
     lista.append(valor)
@@ -15,16 +13,14 @@ for p in range(0, 5):
             cont = p
         elif menor >= valor:
             menor = valor
-            me.append(p)
         elif maior <= valor:
             maior = valor
-            ma.append(p)
-print(ma)
-print(me)
 print(f'Lista digitada {lista}')
-print(f'Menor valor {menor} na posição ')
-for i in me:
-    print(i, end=' ')
-print(f'Maior valor {maior} na posição ')
-for i in ma:
-    print(i, end=' ')
+print(f'Menor valor {menor} na posição ', end='')
+for pos, i in enumerate(lista):
+    if i == menor:
+        print(pos, end=' ')
+print(f'\nMaior valor {maior} na posição ', end='')
+for pos, i in enumerate(lista):
+    if i == maior:
+        print(pos, end=' ')
