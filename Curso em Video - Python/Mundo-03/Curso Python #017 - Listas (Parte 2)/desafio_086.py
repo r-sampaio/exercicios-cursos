@@ -7,3 +7,10 @@ for i in range(0, 3):
         lista[i][c] = int(input(f'Digite o valor de [{i}, {c}]: '))
 for i in lista:
     print(f'[{i[0]:^5}][{i[1]:^5}][{i[2]:^5}]',)
+
+'''
+for i in range(0, 3):
+    for c in range(0, 3):
+        print(f'[{lista[i][c]:^5}]', end='')
+    print()
+'''
