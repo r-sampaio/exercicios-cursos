@@ -3,5 +3,5 @@
 
 valor = float(input('Digite quanto você quer ganhar por horas trabalhadas: R$'))
 horas = float(input('Digite quantas horas você trabalhou esse mês: '))
-toral = valor * horas
-print(f'Você receberá o valor de R${toral} por seu trabalho.')
+total = valor * horas
+print(f'Você receberá o valor de R${total} por seu trabalho.')
