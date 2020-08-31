@@ -6,9 +6,9 @@
 from math import ceil
 
 tamanho = float(input('Digite o tamanho da parede em metros quadrados: '))
-s = tamanho / 3
-b = 80 / 18
+s = tamanho / 3 #calcula a quantidade de litros
+b = 80 / 18 #calcula o preco do litro
 c = s * b
-v = c / 80
+v = c / 80 # calcula a quantidade de latas
 f = ceil(v)
 print(f'Você irá pagar R${(f*80):.2f} por {f} latas de tinta.')
