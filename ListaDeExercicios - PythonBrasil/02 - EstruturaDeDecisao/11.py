@@ -25,7 +25,7 @@ elif salario > 700.00 and salario < 1500.00:
 elif salario > 1500.00:
     percentual = 5
     aumento = (salario / 100) * percentual
-print(f'Valor do salário: {salario}')
-print(f'O percentual de {percentual} foi aplicado.')
-print(f'Com o aumento de: {aumento}')
-print(f'Salario + aumento dando o total de: {(salario + aumento):.2f}')
+print(f'{"Salário Bruto":.<25}: R${salario}')
+print(f'{"Percentual":.<25}: {percentual}%')
+print(f'{"Aumento":.<25}: R${aumento}')
+print(f'{"Salário Líquido":.<25}: R${(salario + aumento):.2f}')
