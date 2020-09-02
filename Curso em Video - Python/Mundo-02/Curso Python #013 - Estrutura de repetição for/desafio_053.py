@@ -1,4 +1,3 @@
-<<<<<<< HEAD:Curso em Video - Python/Mundo-02/Curso Python #013 - Estrutura de repetição for/desafio_053.py
 # Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, deconsederando os espaços.
     # EX: (SEM ACENTOS)
     # APOS A SOPA                   APOSASOPA
@@ -19,5 +18,3 @@ if junto == inverso:
     print('É palindromo')
 else:
     print('Não é palindromo')
-=======
->>>>>>> parent of 643e711... update:Curso em Video - Python/Mundo-01/Curso Python #013 - Estrutura de repetição for/desafio_053.py
