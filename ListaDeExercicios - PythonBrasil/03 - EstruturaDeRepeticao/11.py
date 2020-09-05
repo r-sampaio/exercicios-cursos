@@ -8,7 +8,7 @@ if n1 < n2:
         print(f'{i} ', end='')
         soma += i
 else:
-    for i in range(n1 +1 , n2, -1):
+    for i in range(n1 -1, n2, -1):
         print(f'{i} ', end='')
         soma += i
 print(f'\nSomados dão o valor de: {soma}')
