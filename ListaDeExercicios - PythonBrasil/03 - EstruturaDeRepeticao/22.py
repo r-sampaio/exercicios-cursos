@@ -3,17 +3,23 @@ Altere o programa de cálculo dos números primos, informando, caso o número n�
 por quais número ele é divisível.
 '''
 
-c = 0
+c = 0    
 while True:
     num = int(input('Digite um numero: '))
     for i in range(1, num + 1):
         if num % i == 0:
             c += 1
-            print (f'{i}', end='')
-            if i < num:
-                print(f', ', end='')
-            if i >= num:
-                print(' : ', end='')
+        elif c > 2:
+            c = 0
+            for i in range(1, num + 1):
+                if num % i == 0:
+                    c += 1
+                    print (f'{i}', end='')
+                if i < num and num % i == 0:
+                    print(f', ', end='')
+                elif i == num:
+                    print(' : ', end='')
+            break
     if c == 2:
         print('Primo')
         c = 0
