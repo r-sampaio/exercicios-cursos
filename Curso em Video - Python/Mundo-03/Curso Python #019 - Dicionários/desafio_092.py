@@ -3,17 +3,17 @@
 # receberá também o ano de contratação e o salário. Calcule e acrescente, além da idade, 
 # com quantos anos a pessoa vai se aposentar.
 
-from datetime import datetime
+# from datetime import datetime
 
-dados = dict()
-dados['nome'] = str(input('Nome: '))
-nasc = int(input('Ano de nascimento: '))
-dados['idade'] = datetime.now().year - nasc
-dados['ctps'] = int(input('Carteira de trabalho (0 nào tem): '))
-if dados['ctps'] != 0:
-    dados['contracao'] = int(input('Ano de contracao: '))
-    dados['salario'] = float(input('Salario: '))
-    dados['aposentadoria'] = dados['idade'] + ((dados['contracao'] + 35) - datetime.now().year)
-print()
-for k, v in dados.items():
-    print(f'{k} tem o valor {v}')
+# dados = dict()
+# dados['nome'] = str(input('Nome: '))
+# nasc = int(input('Ano de nascimento: '))
+# dados['idade'] = datetime.now().year - nasc
+# dados['ctps'] = int(input('Carteira de trabalho (0 nào tem): '))
+# if dados['ctps'] != 0:
+#     dados['contracao'] = int(input('Ano de contracao: '))
+#     dados['salario'] = float(input('Salario: '))
+#     dados['aposentadoria'] = dados['idade'] + ((dados['contracao'] + 35) - datetime.now().year)
+# print()
+# for k, v in dados.items():
+#     print(f'{k} tem o valor {v}')
