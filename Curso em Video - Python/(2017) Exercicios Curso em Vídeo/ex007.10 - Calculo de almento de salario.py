@@ -1,5 +1,0 @@
-s = float(input('Digite seu salario: '))
-p = (((s/100)*85)-s)
-r = ((p*-1)+s)
-print('O seu salario vai receber 15% de almento e agora sera {:.2f} rais.'.format(r))
-print('novo salario R${:.2f}'.format(s+(s*15/100)))
