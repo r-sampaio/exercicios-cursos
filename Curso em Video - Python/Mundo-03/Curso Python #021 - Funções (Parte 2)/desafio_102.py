@@ -20,6 +20,7 @@
 #         f *= c
 #     return f
 
+
 # # programa principal
 # print(fatorial(5, show=True))
 # help(fatorial)
