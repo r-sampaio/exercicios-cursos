@@ -23,8 +23,8 @@ while True:
 r = soma / cont
 
 print(f'''
-      Maior temperatura: {maior}
-      Menor temperatura? {menor}
-      Media: {r:.2f}
-      Valores digitados: {cont}
-      ''')
+Maior temperatura: {maior}
+Menor temperatura? {menor}
+Media: {r:.2f}
+Valores digitados: {cont}
+''')
